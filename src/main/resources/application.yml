@@ -9,6 +9,7 @@ eureka:
     client:
       serviceUrl:
         defaultZone: http://10.1.4.6:1111/eureka/
+      enabled:false
 
 # HTTP Server (Tomcat) Port
 server: 
